@@ -1,0 +1,14 @@
+{
+    "title": "Основы компьютерного программирования",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H29M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

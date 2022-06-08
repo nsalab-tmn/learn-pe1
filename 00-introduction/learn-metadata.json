@@ -1,0 +1,14 @@
+{
+    "title": "Добро пожаловать в Основы Python 1",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H13M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

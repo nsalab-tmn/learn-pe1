@@ -1,0 +1,12 @@
+{
+    "title": "",
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./00-introduction/learn-metadata.json"
+        },
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/learn-metadata.json"
+        }
+    ]
+}

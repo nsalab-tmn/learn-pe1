@@ -1,0 +1,14 @@
+{
+    "title": "Более, чем один Python",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H16M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

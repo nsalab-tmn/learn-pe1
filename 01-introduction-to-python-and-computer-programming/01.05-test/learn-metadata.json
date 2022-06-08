@@ -1,0 +1,195 @@
+{
+    "materialType": "test",
+    "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
+    "difficulty": 1,
+    "duration": "PT0H15M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "passingScore": 70,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "Python является примером:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "языка программирования высокого уровня",
+                    "correct": true
+                },
+                {
+                    "answer": "машинного языка",
+                    "correct": false
+                },
+                {
+                    "answer": "естественного языка",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Полный набор известных команд называется:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "список команд",
+                    "correct": true
+                },
+                {
+                    "answer": "машинный список",
+                    "correct": false
+                },
+                {
+                    "answer": "низкоуровневый список",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что такое исходный код?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Программа, написанная на языке программирования высокого уровня",
+                    "correct": true
+                },
+                {
+                    "answer": "Машинный код, выполняемый компьютерами",
+                    "correct": false
+                },
+                {
+                    "answer": "Другое имя для исходного файла",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какая компьютерная программа непосредственно выполняет инструкции, написанные на языке программирования?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Интерпретатор",
+                    "correct": true
+                },
+                {
+                    "answer": "Компилятор",
+                    "correct": false
+                },
+                {
+                    "answer": "Переводчик",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какая версия Python рассматривается в этом курсе?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Python 3",
+                    "correct": true
+                },
+                {
+                    "answer": "Python 2",
+                    "correct": false
+                },
+                {
+                    "answer": "Python 1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что такое CPython?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Реализация языка программирования Python по умолчанию",
+                    "correct": true
+                },
+                {
+                    "answer": "Это другое название Cython, надмножество языка программирования Python",
+                    "correct": false
+                },
+                {
+                    "answer": "Скомпилированный язык, используемый для выполнения функций программирования высокого уровня",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что такое IDLE?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Это аббревиатура, обозначающая интегрированную среду разработки и обучения для Python.",
+                    "correct": true
+                },
+                {
+                    "answer": "Это версия Python",
+                    "correct": false
+                },
+                {
+                    "answer": "Аббревиатура расшифровывается как \"Interactive Development and Learning Extension\" (Интерактивная разработка и расширение обучения).",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какой инструмент позволяет Вам шаг за шагом запускать свой код и проверять его в каждый момент выполнения?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Дебаггер",
+                    "correct": true
+                },
+                {
+                    "answer": "Редактор",
+                    "correct": false
+                },
+                {
+                    "answer": "Консоль",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Как язык программирования Python получил свое название?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Гвидо ван Россум назвал его в честь Летающего цирка Монти Пайтона, комедийного сериала BBC, популярного в 1970-х годах",
+                    "correct": true
+                },
+                {
+                    "answer": "Гвидо ван Россум назвал его в честь Pythonidae - семейства больших, не ядовитых змей",
+                    "correct": false
+                },
+                {
+                    "answer": "Гвидо ван Россум назвал его в честь Питона Катаны, драматического поэта времен Александра Великого",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что из ниже перечисленного является примером расширения файла Python?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "py",
+                    "correct": true
+                },
+                {
+                    "answer": "p",
+                    "correct": false
+                },
+                {
+                    "answer": "pi",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
