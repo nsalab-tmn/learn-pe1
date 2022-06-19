@@ -1,0 +1,195 @@
+{
+    "materialType": "test",
+    "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
+    "difficulty": 1,
+    "duration": "PT0H15M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "passingScore": 70,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "**escape-символ** получил свое название потому, что он:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "изменяет значение символа рядом с ним",
+                    "correct": true
+                },
+                {
+                    "answer": "не может быть пойман из-за высокой скорости",
+                    "correct": false
+                },
+                {
+                    "answer": "сбегает из исходных файлов в память компьютера",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Значение **позиционного параметра** определяется его:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "позицией",
+                    "correct": true
+                },
+                {
+                    "answer": "видом",
+                    "correct": false
+                },
+                {
+                    "answer": "именем",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Наиболее важное различие между целыми числами и числами с плавающей запятой заключается в том, что:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "они по-разному хранятся в памяти компьютера",
+                    "correct": true
+                },
+                {
+                    "answer": "их нельзя использовать одновременно",
+                    "correct": false
+                },
+                {
+                    "answer": "целые числа не могут быть литералами, а числа с плавающей запятой могут",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Префикс `0x` означает, что число после него обозначается как:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "шестнадцатеричное",
+                    "correct": true
+                },
+                {
+                    "answer": "восьмеричное",
+                    "correct": false
+                },
+                {
+                    "answer": "десятичное",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Оператор `//`:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "выполняет целочисленное деление",
+                    "correct": true
+                },
+                {
+                    "answer": "выполняет обычное деление",
+                    "correct": false
+                },
+                {
+                    "answer": "не существует",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Результат следующего сложения: `123 + 0.0`",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "равняется `123.0`",
+                    "correct": true
+                },
+                {
+                    "answer": "равняется `123`",
+                    "correct": false
+                },
+                {
+                    "answer": "не может быть вычислен",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Только одно из следующих утверждений является **верным** - какое?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "умножение предшествует сложению",
+                    "correct": true
+                },
+                {
+                    "answer": "сложение предшествует умножению",
+                    "correct": false
+                },
+                {
+                    "answer": "ни одно из вышеперечисленных утверждений",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Правосторонняя привязка означает, что следующее выражение: `1 ** 2 ** 3` будет считаться:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "справа налево",
+                    "correct": true
+                },
+                {
+                    "answer": "слева направо",
+                    "correct": false
+                },
+                {
+                    "answer": "в случайном порядке",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "**Ключевое слово** - это слово, которое:  (Выберите **два** ответа)",
+            "answerType": "multiChoice",
+            "answers": [
+                {
+                    "answer": "не может использоваться как имя переменной",
+                    "correct": true
+                },
+                {
+                    "answer": "не может использоваться как имя функции",
+                    "correct": true
+                },
+                {
+                    "answer": "является самым важным словом во всей программе",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Значение, возвращаемое функцией `input()`:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "строка",
+                    "correct": true
+                },
+                {
+                    "answer": "целое число",
+                    "correct": false
+                },
+                {
+                    "answer": "число с плавающей запятой",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

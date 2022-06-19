@@ -1,0 +1,14 @@
+{
+    "title": "Основы программирования на языке Python. Часть 2",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H31M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

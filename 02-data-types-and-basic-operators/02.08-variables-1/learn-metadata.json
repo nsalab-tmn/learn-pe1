@@ -1,0 +1,14 @@
+{
+    "title": "Переменные - поля в форме данных. Часть 1",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Python",
+        "Essentials"
+    ],
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}
