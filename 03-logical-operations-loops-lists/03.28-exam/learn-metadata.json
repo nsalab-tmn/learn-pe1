@@ -1,0 +1,454 @@
+{
+    "materialType": "test-exam",
+    "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "passingScore": 70,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "Оператор, способный проверить, равны ли два значения, кодируется как:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`==`",
+                    "correct": true
+                },
+                {
+                    "answer": "`=`",
+                    "correct": false
+                },
+                {
+                    "answer": "`===`",
+                    "correct": false
+                },
+                {
+                    "answer": "`!=`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Значение, в конечном итоге присвоенное `x` равно:\n```x = 1\nx = x == x```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`True`",
+                    "correct": true
+                },
+                {
+                    "answer": "`False`",
+                    "correct": false
+                },
+                {
+                    "answer": "`0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`1`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Сколько звездочек (`*`) отправит на консоль следующий код?\n```i = 0\nwhile i &lt;= 3 :\n    i += 2\t\n    print(\"*\")```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "две",
+                    "correct": true
+                },
+                {
+                    "answer": "одну",
+                    "correct": false
+                },
+                {
+                    "answer": "ноль",
+                    "correct": false
+                },
+                {
+                    "answer": "три",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Сколько звездочек (`*`) отправит на консоль следующий код?\n```i = 0\nwhile i &lt;= 5 :\n    i += 1\n    if i % 2 == 0:\n      \tbreak\t\n    print(\"*\")```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "одну",
+                    "correct": true
+                },
+                {
+                    "answer": "две",
+                    "correct": false
+                },
+                {
+                    "answer": "три",
+                    "correct": false
+                },
+                {
+                    "answer": "ноль",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Сколько решеток (`#`) отправит на консоль следующий код?\n```for i in range(1):\n    print(\"#\")\nelse:\n    print(\"#\")```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "две",
+                    "correct": true
+                },
+                {
+                    "answer": "одну",
+                    "correct": false
+                },
+                {
+                    "answer": "три",
+                    "correct": false
+                },
+                {
+                    "answer": "ноль",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Сколько решеток (`#`) отправит на консоль следующий код?\n```var = 0\nwhile var < 6:\n    var += 1\n    if var % 2 == 0:\n        continue\n    print(\"#\")```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "три",
+                    "correct": true
+                },
+                {
+                    "answer": "ноль",
+                    "correct": false
+                },
+                {
+                    "answer": "одну",
+                    "correct": false
+                },
+                {
+                    "answer": "две",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Сколько решеток (`#`) отправит на консоль следующий код?\n```var = 1\nwhile var < 10:\n    print(\"#\")\n    var = var << 1```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "четыре",
+                    "correct": true
+                },
+                {
+                    "answer": "одну",
+                    "correct": false
+                },
+                {
+                    "answer": "две",
+                    "correct": false
+                },
+                {
+                    "answer": "восемь",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какое значение будет присвоено переменной `x`?\n```z = 10\ny = 0\nx = y &lt; z and z &gt; y or y &gt; z and z &lt; y```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`True`",
+                    "correct": true
+                },
+                {
+                    "answer": "`False`",
+                    "correct": false
+                },
+                {
+                    "answer": "`1`",
+                    "correct": false
+                },
+                {
+                    "answer": "`0`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```a = 1\nb = 0\nc = a & b\nd = a | b\ne = a ^ b\nprint(c + d + e)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`2`",
+                    "correct": true
+                },
+                {
+                    "answer": "`1`",
+                    "correct": false
+                },
+                {
+                    "answer": "`3`",
+                    "correct": false
+                },
+                {
+                    "answer": "`0`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```lst = [3, 1, -2]\nprint(lst[lst[-1]])```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`1`",
+                    "correct": true
+                },
+                {
+                    "answer": "`3`",
+                    "correct": false
+                },
+                {
+                    "answer": "`-2`",
+                    "correct": false
+                },
+                {
+                    "answer": "`-1`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```lst = [1, 2, 3, 4]\nprint(lst[-3:-2])```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`[2]`",
+                    "correct": true
+                },
+                {
+                    "answer": "`[]`",
+                    "correct": false
+                },
+                {
+                    "answer": "`[2, 3]`",
+                    "correct": false
+                },
+                {
+                    "answer": "`[2, 3, 4]`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Второе присваивание:\n```vals = [0, 1, 2]\nvals[0], vals[2] = vals[2], vals[0]```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "реверсирует список",
+                    "correct": true
+                },
+                {
+                    "answer": "сокращает список",
+                    "correct": false
+                },
+                {
+                    "answer": "расширяет список",
+                    "correct": false
+                },
+                {
+                    "answer": "не меняет список",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "После выполнения следующего кода сумма всех элементов `vals` будет равна:\n```vals = [0, 1, 2]\nvals.insert(0, 1)\ndel vals[1]```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`4`",
+                    "correct": true
+                },
+                {
+                    "answer": "`3`",
+                    "correct": false
+                },
+                {
+                    "answer": "`2`",
+                    "correct": false
+                },
+                {
+                    "answer": "`5`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Посмотрите на код и выберите верное утверждение:\n```nums = [1, 2, 3]\nvals = nums\ndel vals[1:2]```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`nums` и `vals` имеют одинаковую длину",
+                    "correct": true
+                },
+                {
+                    "answer": "`nums` длиннее чем `vals`",
+                    "correct": false
+                },
+                {
+                    "answer": "`vals` длиннее чем `nums`",
+                    "correct": false
+                },
+                {
+                    "answer": "код вызовет ошибку во время выполнения",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какие из следующих предложений **верны**? (Выберите **два** ответа)\n```nums = [1, 2, 3]\nvals = nums[-1:-2]```",
+            "answerType": "multiChoice",
+            "answers": [
+                {
+                    "answer": "`nums` длиннее чем `vals`",
+                    "correct": true
+                },
+                {
+                    "answer": "`nums` и `vals` имеют одинаковую длину",
+                    "correct": false
+                },
+                {
+                    "answer": "`vals` длиннее чем `nums`",
+                    "correct": false
+                },
+                {
+                    "answer": "код вызовет ошибку во время выполнения",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```lst1 = [1, 2, 3]\nlst2 = []\nfor v in lst1:\n    lst2.insert(0, v)\nprint(lst2)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`[3, 2, 1]`",
+                    "correct": true
+                },
+                {
+                    "answer": "`[1, 2, 3]`",
+                    "correct": false
+                },
+                {
+                    "answer": "`[1, 1, 1]`",
+                    "correct": false
+                },
+                {
+                    "answer": "`[3, 3, 3]`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```lst = [1, 2, 3]\nfor v in range(len(lst)):\n    lst.insert(1, lst[v])\nprint(lst)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`[1, 1, 1, 1, 2, 3]`",
+                    "correct": true
+                },
+                {
+                    "answer": "`[1, 2, 3, 3, 2, 1]`",
+                    "correct": false
+                },
+                {
+                    "answer": "`[1, 2, 3, 1, 2, 3]`",
+                    "correct": false
+                },
+                {
+                    "answer": "`[3, 2, 1, 1, 2, 3]`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Сколько элементов содержит список `my_list`?\n```my_list = [i for i in range(-1, 2)]```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "три",
+                    "correct": true
+                },
+                {
+                    "answer": "два",
+                    "correct": false
+                },
+                {
+                    "answer": "четыре",
+                    "correct": false
+                },
+                {
+                    "answer": "один",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```t = [[3-i for i in range (3)] for j in range (3)]\ns = 0\nfor i in range(3):\n    s += t[i][i]\nprint(s)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`6`",
+                    "correct": true
+                },
+                {
+                    "answer": "`02`",
+                    "correct": false
+                },
+                {
+                    "answer": "`4`",
+                    "correct": false
+                },
+                {
+                    "answer": "`7`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```lst = [[0, 1, 2, 3] for i in range(2)]\nprint(lst[2][0])```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "код вызовет ошибку во время выполнения",
+                    "correct": true
+                },
+                {
+                    "answer": "`0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`1`",
+                    "correct": false
+                },
+                {
+                    "answer": "`2`",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "title": "ТИПЫ ДАННЫХ, ПЕРЕМЕННЫЕ, БАЗОВЫЕ ОПЕРАЦИИ ВВОДА-ВЫВОДА, БАЗОВЫЕ ОПЕРАТОРЫ",
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "02-data-types-and-basic-operators/02.01-your-very-first-program-1/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.02-lab-print-function/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.03-your-very-first-program-2/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.04-lab-print-arguments/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.05-lab-print-formatting/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.06-python-literals/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.07-lab-print-escape-symbols/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.08-operators-data-processing-tool/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.08-variables-1/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.09-lab-variables/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.10-variables-2/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.11-lab-converter/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.12-lab-float-type/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.13-comments/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.14-lab-comments/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.15-communicate-with-computer/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.16-lab-expressions/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.17-lab-operators-priority/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.18-lab-time-of-completion/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.19-test/learn-metadata.json"
+        },
+        {
+            "$ref": "02-data-types-and-basic-operators/02.20-exam/learn-metadata.json"
+        }
+    ]
+}

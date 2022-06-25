@@ -1,12 +1,27 @@
 {
     "title": "",
     "materialType": "course",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "materials": [
         {
             "$ref": "./00-introduction/learn-metadata.json"
         },
         {
             "$ref": "./01-introduction-to-python-and-computer-programming/learn-metadata.json"
+        },
+        {
+            "$ref": "./02-data-types-and-basic-operators/learn-metadata.json"
+        },
+        {
+            "$ref": "./03-logical-operations-loops-lists/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/learn-metadata.json"
+        },
+        {
+            "$ref": "./05-completion/learn-metadata.json"
         }
     ]
 }

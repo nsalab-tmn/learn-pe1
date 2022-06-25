@@ -1,0 +1,238 @@
+{
+    "materialType": "test",
+    "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
+    "difficulty": 1,
+    "duration": "PT0H15M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "passingScore": 70,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "Определение функции начинается с ключевого слова:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`def`",
+                    "correct": true
+                },
+                {
+                    "answer": "`function`",
+                    "correct": false
+                },
+                {
+                    "answer": "`fun`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Определение функции:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "должно быть размещено перед первым вызовом",
+                    "correct": true
+                },
+                {
+                    "answer": "может быть размещено в любое место внутри кода после первого вызова",
+                    "correct": false
+                },
+                {
+                    "answer": "не должно быть размещено среди другого кода",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Параметр функции - это своего рода переменная:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "только внутри функции",
+                    "correct": true
+                },
+                {
+                    "answer": "в любой части кода",
+                    "correct": false
+                },
+                {
+                    "answer": "только после завершения определения функции",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Способ передачи аргументов, при котором порядок аргументов определяет значения начальных параметров, называется:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "позиционный",
+                    "correct": true
+                },
+                {
+                    "answer": "упорядоченный",
+                    "correct": false
+                },
+                {
+                    "answer": "последовательный",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какое из следующих утверждений является **ложным**?",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Ключевое слово `return` заставляет функцию возобновить выполнение",
+                    "correct": true
+                },
+                {
+                    "answer": "Ключевое слово `return` может заставить функцию возвращать значение",
+                    "correct": false
+                },
+                {
+                    "answer": "Ключевое слово `return` принудительно завершает выполнение функции",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ключевое слово `None` обозначает:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "значение `None`",
+                    "correct": true
+                },
+                {
+                    "answer": "функцию, которая не возвращает значение",
+                    "correct": false
+                },
+                {
+                    "answer": "пустую инструкцию",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Переменная, определенная вне функции:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "может быть прочитана, но не записана (для этого нужно что-то еще)",
+                    "correct": true
+                },
+                {
+                    "answer": "не может быть доступна каким-либо образом внутри функции",
+                    "correct": false
+                },
+                {
+                    "answer": "может быть свободно доступна внутри функции",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Если список передается в функцию в качестве аргумента, при удалении любого из его элементов внутри функции, используя инструкцию `del`:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "повлияет на аргумент",
+                    "correct": true
+                },
+                {
+                    "answer": "не повлияет на аргумент",
+                    "correct": false
+                },
+                {
+                    "answer": "приведет к ошибке выполнения",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```def fun(in=2, out=3):\n    return in * out\n\nprint(fun(3))```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "код содержит ошибку",
+                    "correct": true
+                },
+                {
+                    "answer": "`6`",
+                    "correct": false
+                },
+                {
+                    "answer": "`9`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков вывод следующего кода?\n```tup = (1, ) + (1, )\ntup = tup + tup\nprint(len(tup))```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`4`",
+                    "correct": true
+                },
+                {
+                    "answer": "`2`",
+                    "correct": false
+                },
+                {
+                    "answer": "код содержит ошибку",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что выведет следующая программа, если пользователь сначала введет `kangaroo`, а затем - `0`?\n```try:\n    first_prompt = input(\"Введите первое значение: \")\n    a = len(first_prompt)\n    second_prompt = input(\"Введите второе значение: \")\n    b = len(second_prompt) * 2\n    print(a/b)\nexcept ZeroDivisionError:\n    print(\"Не делите на ноль!\")\nexcept ValueError:\n    print(\"Неверное значение.\")\nexcept:\n    print(\"Ошибка.Ошибка.Ошибка.\")\n\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`4.0`",
+                    "correct": true
+                },
+                {
+                    "answer": "`Не делите на ноль!`",
+                    "correct": false
+                },
+                {
+                    "answer": "`Неверное значение.`",
+                    "correct": false
+                },
+                {
+                    "answer": "`Ошибка.Ошибка.Ошибка.`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каково ожидаемое поведение следующей программы, если пользователь введет `0`?\n```value = input(\"Введите значение: \")\nprint(10/value)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "Программа вызовет исключение `TypeError`.",
+                    "correct": true
+                },
+                {
+                    "answer": "Программа вызовет исключение `ValueError`.",
+                    "correct": false
+                },
+                {
+                    "answer": "Программа вызовет исключение `ZeroDivisionError`.",
+                    "correct": false
+                },
+                {
+                    "answer": "Программа выведет `0` на консоль.",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
