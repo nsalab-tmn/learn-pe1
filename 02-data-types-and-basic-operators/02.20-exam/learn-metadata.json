@@ -8,7 +8,6 @@
     },
     "skills": {},
     "passingScore": 70,
-    "assetsPath": "assets",
     "questions": [
         {
             "question": "Орграф `\n` заставляет функцию `print()`:",
@@ -19,7 +18,7 @@
                     "correct": true
                 },
                 {
-                    "answer": "вывести ровно два символа: `\` и `n`",
+                    "answer": "вывести ровно два символа: `\\` и `n`",
                     "correct": false
                 },
                 {
@@ -450,5 +449,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "assets": {
+        "$ref": "./assets"
+    }
 }

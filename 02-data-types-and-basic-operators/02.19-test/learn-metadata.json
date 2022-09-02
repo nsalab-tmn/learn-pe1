@@ -8,7 +8,6 @@
     },
     "skills": {},
     "passingScore": 70,
-    "assetsPath": "assets",
     "questions": [
         {
             "question": "**escape-символ** получил свое название потому, что он:",
@@ -190,5 +189,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "assets": {
+        "$ref": "./assets"
+    }
 }

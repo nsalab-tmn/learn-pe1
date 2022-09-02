@@ -8,7 +8,6 @@
     },
     "skills": {},
     "passingScore": 70,
-    "assetsPath": "assets",
     "questions": [
         {
             "question": "Оператор, способный проверить, равны ли два значения, кодируется как:",
@@ -450,5 +449,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "assets": {
+        "$ref": "./assets"
+    }
 }

@@ -8,7 +8,6 @@
     },
     "skills": {},
     "passingScore": 70,
-    "assetsPath": "assets",
     "questions": [
         {
             "question": "Каков вывод следующего кода?\n```lst = [1, 2]\n\nfor v in range(2):\n    lst.insert(-1, lst[v])\n\nprint(lst)```\n",
@@ -674,5 +673,8 @@
                 }
             ]
         }
-    ]
+    ],
+    "assets": {
+        "$ref": "./assets"
+    }
 }

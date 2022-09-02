@@ -1,5 +1,5 @@
 {
-    "title": "Получите сертификат PCEP",
+    "title": "РџРѕР»СѓС‡РёС‚Рµ СЃРµСЂС‚РёС„РёРєР°С‚ PCEP",
     "materialType": "lecture",
     "description": "",
     "difficulty": 1,
@@ -8,6 +8,10 @@
         "$ref": "../../material-tags.json"
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-    "assetsPath": "assets"
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

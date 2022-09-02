@@ -3,88 +3,88 @@
     "materialType": "course",
     "materials": [
         {
-            "$ref": "./03-logical-operations-loops-lists/03.01-conditional-statement-1/learn-metadata.json"
+            "$ref": "./03.01-conditional-statement-1/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.02-lab-comparison/learn-metadata.json"
+            "$ref": "./03.02-lab-comparison/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.03-conditional-statement-2/learn-metadata.json"
+            "$ref": "./03.03-conditional-statement-2/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.04-lab-spathiphyllum/learn-metadata.json"
+            "$ref": "./03.04-lab-spathiphyllum/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.05-lab-if-else/learn-metadata.json"
+            "$ref": "./03.05-lab-if-else/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.06-lab-if-elif-else/learn-metadata.json"
+            "$ref": "./03.06-lab-if-elif-else/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.07-code-looping-with-while/learn-metadata.json"
+            "$ref": "./03.07-code-looping-with-while/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.08-lab-guess-the-number/learn-metadata.json"
+            "$ref": "./03.08-lab-guess-the-number/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.09-code-looping-with-for/learn-metadata.json"
+            "$ref": "./03.09-code-looping-with-for/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.10-lab-count-mississippi/learn-metadata.json"
+            "$ref": "./03.10-lab-count-mississippi/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.11-break-and-continue-operators/learn-metadata.json"
+            "$ref": "./03.11-break-and-continue-operators/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.12-lab-stuck-in-a-loop/learn-metadata.json"
+            "$ref": "./03.12-lab-stuck-in-a-loop/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.13-lab-ugly-vowel-eater/learn-metadata.json"
+            "$ref": "./03.13-lab-ugly-vowel-eater/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.14-lab-beautiful-vowel-eater/learn-metadata.json"
+            "$ref": "./03.14-lab-beautiful-vowel-eater/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.15-loops-and-else/learn-metadata.json"
+            "$ref": "./03.15-loops-and-else/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.16-lab-while-basics/learn-metadata.json"
+            "$ref": "./03.16-lab-while-basics/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.17-lab-collatz-conjecture/learn-metadata.json"
+            "$ref": "./03.17-lab-collatz-conjecture/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.18-computer-logic/learn-metadata.json"
+            "$ref": "./03.18-computer-logic/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.19-lists-1/learn-metadata.json"
+            "$ref": "./03.19-lists-1/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.20-lab-lists-basics/learn-metadata.json"
+            "$ref": "./03.20-lab-lists-basics/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.21-lists-2/learn-metadata.json"
+            "$ref": "./03.21-lists-2/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.22-lab-the-beatles/learn-metadata.json"
+            "$ref": "./03.22-lab-the-beatles/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.23-sorting-lists/learn-metadata.json"
+            "$ref": "./03.23-sorting-lists/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.24-lists-in-details/learn-metadata.json"
+            "$ref": "./03.24-lists-in-details/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.25-lab-removing-duplicates/learn-metadata.json"
+            "$ref": "./03.25-lab-removing-duplicates/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.26-lists-in-lists/learn-metadata.json"
+            "$ref": "./03.26-lists-in-lists/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.27-test/learn-metadata.json"
+            "$ref": "./03.27-test/learn-metadata.json"
         },
         {
-            "$ref": "./03-logical-operations-loops-lists/03.28-exam/learn-metadata.json"
+            "$ref": "./03.28-exam/learn-metadata.json"
         }
     ]
 }

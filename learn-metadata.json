@@ -1,8 +1,8 @@
 {
     "title": "",
-    "materialType": "course",
+    "materialType": "learning-path",
     "tags": {
-        "$ref": "../../material-tags.json"
+        "$ref": "./material-tags.json"
     },
     "materials": [
         {
