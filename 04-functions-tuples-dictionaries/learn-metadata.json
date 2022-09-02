@@ -1,6 +1,9 @@
 {
-    "title": "ФУНКЦИИ, КОРТЕЖИ, СЛОВАРИ И ОБРАБОТКА ДАННЫХ",
+    "title": "Функции, кортежи, словари и обработка данных",
     "materialType": "course",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
     "materials": [
         {
             "$ref": "./04.01-your-very-first-function/learn-metadata.json"

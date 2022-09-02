@@ -1,6 +1,9 @@
 {
-    "title": "",
+    "title": "Булевы значения, условия, циклы, списки и работа со списками, логические и бинарные операции",
     "materialType": "course",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
     "materials": [
         {
             "$ref": "./03.01-conditional-statement-1/learn-metadata.json"

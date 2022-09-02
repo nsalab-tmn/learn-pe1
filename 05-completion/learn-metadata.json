@@ -1,6 +1,9 @@
 {
     "title": "Завершение курса Основы Python 1",
     "materialType": "course",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
     "materials": [
         {
             "$ref": "./05.01-course-completed/learn-metadata.json"

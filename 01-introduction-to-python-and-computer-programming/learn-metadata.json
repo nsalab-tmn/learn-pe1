@@ -1,6 +1,9 @@
 {
-    "title": "ВВЕДЕНИЕ В PYTHON И КОМПЬЮТЕРНОЕ ПРОГРАММИРОВАНИЕ",
+    "title": "Введение в Python и компьютерное программирование",
     "materialType": "course",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
     "materials": [
         {
             "$ref": "./01.01-fundamentals-computer-programming/learn-metadata.json"

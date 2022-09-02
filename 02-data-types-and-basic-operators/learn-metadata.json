@@ -1,6 +1,9 @@
 {
-    "title": "ТИПЫ ДАННЫХ, ПЕРЕМЕННЫЕ, БАЗОВЫЕ ОПЕРАЦИИ ВВОДА-ВЫВОДА, БАЗОВЫЕ ОПЕРАТОРЫ",
+    "title": "Типы данных, переменные, базовые операции ввода-вывода и основные операторы",
     "materialType": "course",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
     "materials": [
         {
             "$ref": "./02.01-your-very-first-program-1/learn-metadata.json"
