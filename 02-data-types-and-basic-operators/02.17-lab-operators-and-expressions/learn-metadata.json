@@ -1,5 +1,5 @@
 {
-    "title": "Операторы и выражения",
+    "title": "Лабораторная работа: Операторы и выражения. Часть 1",
     "materialType": "lab",
     "description": "",
     "text": {
@@ -8,8 +8,8 @@
     "assets": {
         "$ref": "./assets"
     },
-    "duration": "PT0H15M",
-    "difficulty": 2,
+    "duration": "PT0H20M",
+    "difficulty": 3,
     "tags": {
         "$ref": "../../material-tags.json"
     },

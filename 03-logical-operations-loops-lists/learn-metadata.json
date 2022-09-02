@@ -9,13 +9,13 @@
             "$ref": "./03.01-conditional-statement-1/learn-metadata.json"
         },
         {
-            "$ref": "./03.02-lab-comparison/learn-metadata.json"
+            "$ref": "./03.02-lab-questions-and-answers/learn-metadata.json"
         },
         {
             "$ref": "./03.03-conditional-statement-2/learn-metadata.json"
         },
         {
-            "$ref": "./03.04-lab-spathiphyllum/learn-metadata.json"
+            "$ref": "./03.04-lab-comparison-operators-and-conditional-execution/learn-metadata.json"
         },
         {
             "$ref": "./03.05-lab-if-else/learn-metadata.json"

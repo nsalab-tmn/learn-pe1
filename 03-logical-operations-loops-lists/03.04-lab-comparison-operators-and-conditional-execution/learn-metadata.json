@@ -1,5 +1,5 @@
 {
-    "title": "Вопросы и ответы",
+    "title": "Лабораторная работа: Операторы сравнения и условное выполнение",
     "materialType": "lab",
     "description": "",
     "text": {
@@ -8,7 +8,7 @@
     "assets": {
         "$ref": "./assets"
     },
-    "duration": "PT0H2M",
+    "duration": "PT0H3M",
     "difficulty": 1,
     "tags": {
         "$ref": "../../material-tags.json"

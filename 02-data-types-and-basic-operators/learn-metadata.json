@@ -42,7 +42,7 @@
             "$ref": "./02.11-lab-converter/learn-metadata.json"
         },
         {
-            "$ref": "./02.12-lab-float-type/learn-metadata.json"
+            "$ref": "./02.12-lab-operators-and-expressions/learn-metadata.json"
         },
         {
             "$ref": "./02.13-comments/learn-metadata.json"
@@ -54,13 +54,13 @@
             "$ref": "./02.15-communicate-with-computer/learn-metadata.json"
         },
         {
-            "$ref": "./02.16-lab-expressions/learn-metadata.json"
+            "$ref": "./02.16-lab-simple-input-and-output/learn-metadata.json"
         },
         {
-            "$ref": "./02.17-lab-operators-priority/learn-metadata.json"
+            "$ref": "./02.17-lab-operators-and-expressions/learn-metadata.json"
         },
         {
-            "$ref": "./02.18-lab-time-of-completion/learn-metadata.json"
+            "$ref": "./02.18-lab-operators-and-expressions/learn-metadata.json"
         },
         {
             "$ref": "./02.19-test/learn-metadata.json"

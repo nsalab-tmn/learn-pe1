@@ -1,5 +1,5 @@
 {
-    "title": "Простые операции ввода/вывода",
+    "title": "Лабораторная работа: Вопросы и ответы",
     "materialType": "lab",
     "description": "",
     "text": {
@@ -8,8 +8,8 @@
     "assets": {
         "$ref": "./assets"
     },
-    "duration": "PT0H10M",
-    "difficulty": 2,
+    "duration": "PT0H2M",
+    "difficulty": 1,
     "tags": {
         "$ref": "../../material-tags.json"
     },
