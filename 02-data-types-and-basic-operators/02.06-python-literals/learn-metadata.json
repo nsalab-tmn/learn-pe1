@@ -1,0 +1,13 @@
+{
+    "title": "Литералы Python",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H37M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

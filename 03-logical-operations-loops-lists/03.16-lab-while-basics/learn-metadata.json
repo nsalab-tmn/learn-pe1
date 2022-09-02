@@ -1,0 +1,17 @@
+{
+    "title": "Основы цикла while",
+    "materialType": "lab",
+    "description": "",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    },
+    "duration": "PT0H4M",
+    "difficulty": 1,
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {}
+}

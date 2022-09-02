@@ -1,0 +1,17 @@
+{
+    "title": "Основы выражения if-else",
+    "materialType": "lab",
+    "description": "",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    },
+    "duration": "PT0H5M",
+    "difficulty": 1,
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {}
+}

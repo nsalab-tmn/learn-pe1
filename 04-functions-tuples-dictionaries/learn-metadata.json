@@ -1,0 +1,51 @@
+{
+    "title": "ФУНКЦИИ, КОРТЕЖИ, СЛОВАРИ И ОБРАБОТКА ДАННЫХ",
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.01-your-very-first-function/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.02-parameterized-functions/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.03-return-instruction/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.04-lab-leap-year/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.05-lab-how-many-days/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.06-lab-day-of-year/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.07-lab-prime-numbers/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.08-lab-fuel-consumption-conversion/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.09-functions-and-scopes/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.10-some-simple-functions/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.11-sequence-types-and-variability/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.12-exceptions/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.13-lab-tick-tack-toe/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.14-test/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-functions-tuples-dictionaries/04.15-exam/learn-metadata.json"
+        }
+    ]
+}

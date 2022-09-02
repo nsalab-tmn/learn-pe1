@@ -1,0 +1,17 @@
+{
+    "title": "Операторы сравнения и условное выполнение",
+    "materialType": "lab",
+    "description": "",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    },
+    "duration": "PT0H3M",
+    "difficulty": 1,
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {}
+}

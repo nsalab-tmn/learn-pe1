@@ -1,0 +1,10 @@
+{
+    "title": "Введение в Основы Python 1",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H13M",
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Операторы - инструмент обработки данных",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H34M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

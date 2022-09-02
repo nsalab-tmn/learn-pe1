@@ -1,0 +1,24 @@
+{
+    "title": "ВВЕДЕНИЕ В PYTHON И КОМПЬЮТЕРНОЕ ПРОГРАММИРОВАНИЕ",
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/01.01-fundamentals-computer-programming/learn-metadata.json"
+        },
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/01.02-what-is-python/learn-metadata.json"
+        },
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/01.03-more-than-one-python/learn-metadata.json"
+        },
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/01.04-how-to-get-and-use-python/learn-metadata.json"
+        },
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/01.05-test/learn-metadata.json"
+        },
+        {
+            "$ref": "./01-introduction-to-python-and-computer-programming/01.06-exam/learn-metadata.json"
+        }
+    ]
+}

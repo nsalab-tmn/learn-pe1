@@ -1,0 +1,13 @@
+{
+    "title": "Исключения",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT1H13M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

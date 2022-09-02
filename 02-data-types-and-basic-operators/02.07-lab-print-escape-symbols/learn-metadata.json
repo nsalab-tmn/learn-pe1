@@ -1,0 +1,17 @@
+{
+    "title": "Литералы Python - строки",
+    "materialType": "lab",
+    "description": "",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    },
+    "duration": "PT0H10M",
+    "difficulty": 2,
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {}
+}

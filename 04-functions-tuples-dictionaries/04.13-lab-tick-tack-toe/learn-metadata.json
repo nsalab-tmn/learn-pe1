@@ -1,0 +1,17 @@
+{
+    "title": "Крестики-нолики",
+    "materialType": "lab",
+    "description": "",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    },
+    "duration": "PT2H0M",
+    "difficulty": 4,
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {}
+}

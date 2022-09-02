@@ -1,0 +1,454 @@
+{
+    "materialType": "test-exam",
+    "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
+    "difficulty": 1,
+    "duration": "PT0H30M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "passingScore": 70,
+    "assetsPath": "assets",
+    "questions": [
+        {
+            "question": "Орграф `\n` заставляет функцию `print()`:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "разбить линию вывода",
+                    "correct": true
+                },
+                {
+                    "answer": "вывести ровно два символа: `\` и `n`",
+                    "correct": false
+                },
+                {
+                    "answer": "продублировать символ рядом с орграфом",
+                    "correct": false
+                },
+                {
+                    "answer": "остановить ее выполнение",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Значение **параметра по ключевому слову** определяется:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "именем аргумента, указанное вместе с его значением",
+                    "correct": true
+                },
+                {
+                    "answer": "его позицией в списке аргументов",
+                    "correct": false
+                },
+                {
+                    "answer": "его связью с существующими переменными",
+                    "correct": false
+                },
+                {
+                    "answer": "его значением (value)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Значение **двадцать целых двенадцать сотых, умноженное на десять в восьмой степени,** должно быть записано как:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`20.12E8`",
+                    "correct": true
+                },
+                {
+                    "answer": "`20.12*10^8`",
+                    "correct": false
+                },
+                {
+                    "answer": "`20.12E8.0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`20E12.8`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Префикс `0o` означает, что число после него обозначается как:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "восьмеричное",
+                    "correct": true
+                },
+                {
+                    "answer": "двоичное",
+                    "correct": false
+                },
+                {
+                    "answer": "десятичное",
+                    "correct": false
+                },
+                {
+                    "answer": "шестнадцатеричное",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Оператор `**`:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "выполняет возведение в степень",
+                    "correct": true
+                },
+                {
+                    "answer": "не существует",
+                    "correct": false
+                },
+                {
+                    "answer": "выполняет умножение чисел с плавающей запятой",
+                    "correct": false
+                },
+                {
+                    "answer": "выполняет дублированное умножение",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Результат следующего деления: `1 / 1`",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "равняется `1.0`",
+                    "correct": true
+                },
+                {
+                    "answer": "равняется `1`",
+                    "correct": false
+                },
+                {
+                    "answer": "невозможно вычислить",
+                    "correct": false
+                },
+                {
+                    "answer": "невозможно предсказать",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какие из следующих утверждений **верны**?  (Выберите **два** ответа)",
+            "answerType": "multiChoice",
+            "answers": [
+                {
+                    "answer": "Результатом оператора `/` всегда является целочисленное значение.",
+                    "correct": false
+                },
+                {
+                    "answer": "Правый аргумент оператора `%` не может быть нулевым.",
+                    "correct": true
+                },
+                {
+                    "answer": "Сложение предшествует умножению.",
+                    "correct": false
+                },
+                {
+                    "answer": "Оператор `**` использует правостороннее связывание.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Левостороннее связывание определяет, что результат следующего выражения: `1 // 2 * 3` равняется:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`0`",
+                    "correct": true
+                },
+                {
+                    "answer": "`4.5`",
+                    "correct": false
+                },
+                {
+                    "answer": "`0.0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`0.16666666666666666`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Какие из следующих имен переменных являются **недопустимыми**?  (Выберите **два** ответа)",
+            "answerType": "multiChoice",
+            "answers": [
+                {
+                    "answer": "`True`",
+                    "correct": true
+                },
+                {
+                    "answer": "`true`",
+                    "correct": false
+                },
+                {
+                    "answer": "`TRUE`",
+                    "correct": false
+                },
+                {
+                    "answer": "`and`",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Функция `print()` может выводить значения:",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "любого числа аргументов (включая ноль)",
+                    "correct": true
+                },
+                {
+                    "answer": "любого числа аргументов (кроме нуля)",
+                    "correct": false
+                },
+                {
+                    "answer": "только одного аргумента",
+                    "correct": false
+                },
+                {
+                    "answer": "не более пяти аргументов",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что выведет следующий код? ```x = 1\ny = 2\nz = x\nx = y\ny = z\nprint(x, y)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`2 1`",
+                    "correct": true
+                },
+                {
+                    "answer": "`1 2`",
+                    "correct": false
+                },
+                {
+                    "answer": "`1 1`",
+                    "correct": false
+                },
+                {
+                    "answer": "`2 2`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = input()\ny = input()\nprint(x + y)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`24`",
+                    "correct": true
+                },
+                {
+                    "answer": "`2`",
+                    "correct": false
+                },
+                {
+                    "answer": "`4`",
+                    "correct": false
+                },
+                {
+                    "answer": "`6`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nx = x // y\ny = y // x\n\nprint(y)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "код вызовет ошибку выполнения",
+                    "correct": true
+                },
+                {
+                    "answer": "`2.0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`4.0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`8.0`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nx = x / y\ny = y / x\n\nprint(y)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`8.0`",
+                    "correct": true
+                },
+                {
+                    "answer": "`4.0`",
+                    "correct": false
+                },
+                {
+                    "answer": "`2.0`",
+                    "correct": false
+                },
+                {
+                    "answer": "код вызовет ошибку выполнения",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `11` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nx = x % y\nx = x % y\ny = y % x\n\nprint(y)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`1`",
+                    "correct": true
+                },
+                {
+                    "answer": "`2`",
+                    "correct": false
+                },
+                {
+                    "answer": "`3`",
+                    "correct": false
+                },
+                {
+                    "answer": "`4`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `3` и `6` соответственно?\n```x = input()\ny = int(input())\n\nprint(x * y)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`333333`",
+                    "correct": true
+                },
+                {
+                    "answer": "`18`",
+                    "correct": false
+                },
+                {
+                    "answer": "`666`",
+                    "correct": false
+                },
+                {
+                    "answer": "`36`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что выведет следующий код?\n```z = y = x = 1\nprint(x, y, z, sep='*')\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`1*1*1`",
+                    "correct": true
+                },
+                {
+                    "answer": "`1 1 1`",
+                    "correct": false
+                },
+                {
+                    "answer": "`x*y*z`",
+                    "correct": false
+                },
+                {
+                    "answer": "`x y z`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что выведет следующий код?\n```y = 2 + 3 * 5.\nprint(Y)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "код вызовет ошибку выполнения",
+                    "correct": true
+                },
+                {
+                    "answer": "`25.`",
+                    "correct": false
+                },
+                {
+                    "answer": "`17`",
+                    "correct": false
+                },
+                {
+                    "answer": "`17.0`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Что выведет следующий код?\n```x = 1 / 2 + 3 // 3 + 4 ** 2\nprint(x)```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`17.5`",
+                    "correct": true
+                },
+                {
+                    "answer": "`17`",
+                    "correct": false
+                },
+                {
+                    "answer": "`8`",
+                    "correct": false
+                },
+                {
+                    "answer": "`8.5`",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nprint(x + y)\n```",
+            "answerType": "singleChoice",
+            "answers": [
+                {
+                    "answer": "`6`",
+                    "correct": true
+                },
+                {
+                    "answer": "`24`",
+                    "correct": false
+                },
+                {
+                    "answer": "`2`",
+                    "correct": false
+                },
+                {
+                    "answer": "`4`",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

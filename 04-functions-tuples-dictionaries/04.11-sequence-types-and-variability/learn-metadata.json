@@ -1,0 +1,13 @@
+{
+    "title": "Типы последовательностей и изменяемость",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT1H4M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

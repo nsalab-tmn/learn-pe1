@@ -1,0 +1,17 @@
+{
+    "title": "День года",
+    "materialType": "lab",
+    "description": "",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    },
+    "duration": "PT0H30M",
+    "difficulty": 2,
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {}
+}

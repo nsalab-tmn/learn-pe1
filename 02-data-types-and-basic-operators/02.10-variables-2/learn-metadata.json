@@ -1,0 +1,13 @@
+{
+    "title": "Переменные - поля в форме данных. Часть 2",
+    "materialType": "lecture",
+    "description": "",
+    "difficulty": 1,
+    "duration": "PT0H9M",
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+    "assetsPath": "assets"
+}

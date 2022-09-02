@@ -1,0 +1,15 @@
+{
+    "title": "Завершение курса Основы Python 1",
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./05-completion/05.01-course-completed/learn-metadata.json"
+        },
+        {
+            "$ref": "./05-completion/05.02-exam/learn-metadata.json"
+        },
+        {
+            "$ref": "./05-completion/05.03-earn-PCEP-certification/learn-metadata.json"
+        }
+    ]
+}
