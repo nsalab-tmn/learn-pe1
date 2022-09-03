@@ -29,7 +29,7 @@
             ]
         },
         {
-            "question": "Сколько звездочек отправит на консоль следующий код?\n```i = 2\nwhile i &gt;= 0:\n    print(\"*\")\n    i -= 2```",
+            "question": "Сколько звездочек отправит на консоль следующий код?\n\n```\ni = 2\nwhile i &gt;= 0:\n    print(\"*\")\n    i -= 2\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -47,15 +47,15 @@
             ]
         },
         {
-            "question": "Сколько решеток отправит на консоль следующий код?\n```for i in range(-1, 1):\n    print(\"#\")\n```",
+            "question": "Сколько решеток отправит на консоль следующий код?\n\n```\nfor i in range(-1, 1):\n    print(\"#\")\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "два",
+                    "answer": "две",
                     "correct": true
                 },
                 {
-                    "answer": "один",
+                    "answer": "одну",
                     "correct": false
                 },
                 {
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "question": "Какое значение будет присвоено переменной `x`?\n```z = 10\ny = 0\nx = z > y or z == y```",
+            "question": "Какое значение будет присвоено переменной `x`?\n\n```\nz = 10\ny = 0\nx = z > y or z == y\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```lst = [3, 1, -1]\nlst[-1] = lst[-2]\nprint(lst)```",
+            "question": "Каков вывод следующего кода?\n\n```\nlst = [3, 1, -1]\nlst[-1] = lst[-2]\nprint(lst)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "question": "Второе присваивание:\n```vals = [0, 1, 2]\nvals[0], vals[1] = vals[1], vals[2]\n```",
+            "question": "Второе присваивание:\n\n```\nvals = [0, 1, 2]\nvals[0], vals[1] = vals[1], vals[2]\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -119,7 +119,7 @@
             ]
         },
         {
-            "question": "Посмотрите на код и выберите одно из следующих утверждений, которое верно:\n```nums = []\nvals = nums\nvals.append(1)```",
+            "question": "Посмотрите на код и выберите одно из следующих утверждений, которое верно:\n\n```\nnums = []\nvals = nums\nvals.append(1)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -127,21 +127,21 @@
                     "correct": true
                 },
                 {
-                    "answer": "`nums` длиннее чем `vals`",
+                    "answer": "`nums` длиннее, чем `vals`",
                     "correct": false
                 },
                 {
-                    "answer": "`vals` длиннее чем `nums`",
+                    "answer": "`vals` длиннее, чем `nums`",
                     "correct": false
                 }
             ]
         },
         {
-            "question": "Посмотрите на код и выберите одно из следующих утверждений, которое верно:\n```nums = []\nvals = nums[:]\nvals.append(1)```",
+            "question": "Посмотрите на код и выберите одно из следующих утверждений, которое верно:\n\n```\nnums = []\nvals = nums[:]\nvals.append(1)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "`vals` длиннее чем `nums`",
+                    "answer": "`vals` длиннее, чем `nums`",
                     "correct": true
                 },
                 {
@@ -149,13 +149,13 @@
                     "correct": false
                 },
                 {
-                    "answer": "`nums` длиннее чем `vals`",
+                    "answer": "`nums` длиннее, чем `vals`",
                     "correct": false
                 }
             ]
         },
         {
-            "question": "Сколько элементов содержит список `my_list`?\n```my_list = [0 for i in range(1, 3)]```",
+            "question": "Сколько элементов содержит список `my_list`?\n\n```\nmy_list = [0 for i in range(1, 3)]\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -173,7 +173,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```lst = [0, 1, 2, 3]\nx = 1\nfor elem in lst:\n    x *= elem\nprint(x)```",
+            "question": "Каков вывод следующего кода?\n\n```\nlst = [0, 1, 2, 3]\nx = 1\nfor elem in lst:\n    x *= elem\nprint(x)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
