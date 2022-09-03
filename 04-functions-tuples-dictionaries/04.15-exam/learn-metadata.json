@@ -143,7 +143,7 @@
             ]
         },
         {
-            "question": "Какой код Вы бы вставили в закомментированную строку, чтобы получить вывод, который должен быть следующим:**Ожидаемый вывод:**\n\n```\na\nb\nc\n```\n\n**Код:**\n\n```\ndct = { }\nlst = ['a', 'b', 'c', 'd']\nfor i in range(len(lst) - 1):\n    dct[lst[i]] = ( lst[i], )\nfor i in sorted(dct.keys()):\n    k = dct[i]\n    # поместите сюда Ваш код\n```\n",
+            "question": "Какой код Вы бы вставили в закомментированную строку, чтобы получить вывод, который должен быть следующим:\n\n**Ожидаемый вывод:**\n\n```\na\nb\nc\n```\n\n**Код:**\n\n```\ndct = { }\nlst = ['a', 'b', 'c', 'd']\nfor i in range(len(lst) - 1):\n    dct[lst[i]] = ( lst[i], )\nfor i in sorted(dct.keys()):\n    k = dct[i]\n    # поместите сюда Ваш код\n```\n",
             "answerType": "singleChoice",
             "answers": [
                 {
