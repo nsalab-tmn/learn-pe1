@@ -33,7 +33,7 @@
             ]
         },
         {
-            "question": "Функция, определенная следующим образом: (Выберите **два** ответа)\n```def function(x=0):\n    return x```",
+            "question": "Функция, определенная следующим образом: (Выберите **два** ответа)\n\n```\ndef function(x=0):\n    return x\n```",
             "answerType": "multiChoice",
             "answers": [
                 {
@@ -99,7 +99,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def f(x):\n    if x == 0:\n    \treturn 0\n    return x + f(x - 1)\n    \nprint(f(3))```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef f(x):\n    if x == 0:\n    \treturn 0\n    return x + f(x - 1)\n    \nprint(f(3))\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def fun(x):\n    x += 1\n    return x\n    \nx = 2\nx = fun(x + 1)\nprint(x)```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef fun(x):\n    x += 1\n    return x\n    \nx = 2\nx = fun(x + 1)\nprint(x)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -143,7 +143,7 @@
             ]
         },
         {
-            "question": "Какой код Вы бы вставили в закомментированную строку, чтобы получить вывод, который должен быть следующим:**Ожидаемый вывод:**\n```\na\nb\nc\n```\n\n**Код:**\n\n```\ndct = { }\nlst = ['a', 'b', 'c', 'd']\nfor i in range(len(lst) - 1):\n    dct[lst[i]] = ( lst[i], )\nfor i in sorted(dct.keys()):\n    k = dct[i]\n    # поместите сюда Ваш код\n```\n",
+            "question": "Какой код Вы бы вставили в закомментированную строку, чтобы получить вывод, который должен быть следующим:**Ожидаемый вывод:**\n\n```\na\nb\nc\n```\n\n**Код:**\n\n```\ndct = { }\nlst = ['a', 'b', 'c', 'd']\nfor i in range(len(lst) - 1):\n    dct[lst[i]] = ( lst[i], )\nfor i in sorted(dct.keys()):\n    k = dct[i]\n    # поместите сюда Ваш код\n```\n",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -165,7 +165,7 @@
             ]
         },
         {
-            "question": "Следующий код:\n```def func(a, b):\n    return a ** a\n    \nprint(func(2))```",
+            "question": "Следующий код:\n\n```\ndef func(a, b):\n    return a ** a\n    \nprint(func(2))\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -187,7 +187,7 @@
             ]
         },
         {
-            "question": "Следующий код:\n```def func1(a):\n    return a ** a\ndef func2(a):\n    return func1(a) * func1(a)\nprint(func2(2))```",
+            "question": "Следующий код:\n\n```\ndef func1(a):\n    return a ** a\ndef func2(a):\n    return func1(a) * func1(a)\nprint(func2(2))\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -253,7 +253,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def fun(x):\n    if x % 2 == 0:\n    \treturn 1\n    else:\n    \treturn\n    \nprint(fun(fun(2)) + 1)```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef fun(x):\n    if x % 2 == 0:\n    \treturn 1\n    else:\n    \treturn\n    \nprint(fun(fun(2)) + 1)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -275,7 +275,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def fun(x):\n    global y\n    y = x * x\n    return y\n    \nfun(2)\nprint(y)```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef fun(x):\n    global y\n    y = x * x\n    return y\n    \nfun(2)\nprint(y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -297,7 +297,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def any():\n    print(var + 1, end='')\nvar = 1\nany()\nprint(var)```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef any():\n    print(var + 1, end='')\nvar = 1\nany()\nprint(var)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -319,7 +319,7 @@
             ]
         },
         {
-            "question": "Предполагая, что `my_tuple` является правильно созданным кортежем, тот факт, что кортежи являются неизменяемыми, означает, что следующая инструкция:\n```my_tuple[1] = my_tuple[1] + my_tuple[0]```",
+            "question": "Предполагая, что `my_tuple` является правильно созданным кортежем, тот факт, что кортежи являются неизменяемыми, означает, что следующая инструкция:\n\n```\nmy_tuple[1] = my_tuple[1] + my_tuple[0]\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -341,7 +341,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```my_list =  ['Mary', 'had', 'a', 'little', 'lamb']\ndef my_list(lst):\n    del my_lst[3]\n    my_list[3] = 'ram'\nprint(list(my_list))```",
+            "question": "Каков вывод следующего кода?\n\n```\nmy_list =  ['Mary', 'had', 'a', 'little', 'lamb']\ndef my_list(lst):\n    del my_lst[3]\n    my_list[3] = 'ram'\nprint(list(my_list))\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -363,7 +363,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def fun(x, y, z):\n    return x + 2 * y + 3 * z\n    \nprint(fun(0, z=1, y=3))```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef fun(x, y, z):\n    return x + 2 * y + 3 * z\n    \nprint(fun(0, z=1, y=3))\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -385,7 +385,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def fun(inp=2, out=3):\n    return inp * out\nprint(fun(out=2))```",
+            "question": "Каков вывод следующего кода?\n\n```\ndef fun(inp=2, out=3):\n    return inp * out\nprint(fun(out=2))\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -407,7 +407,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```dct = { 'one':'two', 'three':'one', 'two':'three' }\nv = dct['one']\nfor k in range(len(dct)):\n    v = dct[v]\nprint(v)```",
+            "question": "Каков вывод следующего кода?\n\n```\ndct = { 'one':'two', 'three':'one', 'two':'three' }\nv = dct['one']\nfor k in range(len(dct)):\n    v = dct[v]\nprint(v)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -429,7 +429,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```tup = (1, 2, 4, 8)\ntup = tup[1:-1]\ntup = tup[0]\nprint(tup)```",
+            "question": "Каков вывод следующего кода?\n\n```\ntup = (1, 2, 4, 8)\ntup = tup[1:-1]\ntup = tup[0]\nprint(tup)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -451,7 +451,7 @@
             ]
         },
         {
-            "question": "Что выведет следующий код?\n```try:\n    value = input(\"Введите значение: \")\n    print(value/value)\nexcept ValueError:\n    print(\"Неверный ввод...\")\nexcept ZeroDivisionError:\n    print(\"Очень неверный ввод...\")\nexcept TypeError:\n    print(\"Очень, очень неверный ввод...\")\nexcept:\n    print(\"Бууу!\")\n```",
+            "question": "Что выведет следующий код?\n\n```\ntry:\n    value = input(\"Введите значение: \")\n    print(value/value)\nexcept ValueError:\n    print(\"Неверный ввод...\")\nexcept ZeroDivisionError:\n    print(\"Очень неверный ввод...\")\nexcept TypeError:\n    print(\"Очень, очень неверный ввод...\")\nexcept:\n    print(\"Бууу!\")\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -473,7 +473,7 @@
             ]
         },
         {
-            "question": "Выберите **истинные** утверждения о блоке _try-except_ относительно следующего примера. (Выберите **два** ответа.)\n```\ntry:\n    # Код здесь...\nexcept:\n    # Код здесь...\n\n```",
+            "question": "Выберите **истинные** утверждения о блоке _try-except_ относительно следующего примера. (Выберите **два** ответа.)\n\n```\ntry:\n    # Код здесь...\nexcept:\n    # Код здесь...\n\n```",
             "answerType": "multiChoice",
             "answers": [
                 {
