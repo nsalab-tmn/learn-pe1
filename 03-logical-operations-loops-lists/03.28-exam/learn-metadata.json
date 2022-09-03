@@ -55,7 +55,7 @@
             ]
         },
         {
-            "question": "Сколько звездочек (`*`) отправит на консоль следующий код?\n\n```\ni = 0\nwhile i &lt;= 3 :\n    i += 2\t\n    print(\"*\")\n```",
+            "question": "Сколько звездочек (`*`) отправит на консоль следующий код?\n\n```\ni = 0\nwhile i <= 3 :\n    i += 2\t\n    print(\"*\")\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -77,7 +77,7 @@
             ]
         },
         {
-            "question": "Сколько звездочек (`*`) отправит на консоль следующий код?\n\n```\ni = 0\nwhile i &lt;= 5 :\n    i += 1\n    if i % 2 == 0:\n      \tbreak\t\n    print(\"*\")\n```",
+            "question": "Сколько звездочек (`*`) отправит на консоль следующий код?\n\n```\ni = 0\nwhile i <= 5 :\n    i += 1\n    if i % 2 == 0:\n      \tbreak\t\n    print(\"*\")\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -165,7 +165,7 @@
             ]
         },
         {
-            "question": "Какое значение будет присвоено переменной `x`?\n\n```\nz = 10\ny = 0\nx = y &lt; z and z &gt; y or y &gt; z and z &lt; y\n```",
+            "question": "Какое значение будет присвоено переменной `x`?\n\n```\nz = 10\ny = 0\nx = y < z and z > y or y > z and z < y\n```",
             "answerType": "singleChoice",
             "answers": [
                 {

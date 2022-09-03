@@ -29,7 +29,7 @@
             ]
         },
         {
-            "question": "Сколько звездочек отправит на консоль следующий код?\n\n```\ni = 2\nwhile i &gt;= 0:\n    print(\"*\")\n    i -= 2\n```",
+            "question": "Сколько звездочек отправит на консоль следующий код?\n\n```\ni = 2\nwhile i >= 0:\n    print(\"*\")\n    i -= 2\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
