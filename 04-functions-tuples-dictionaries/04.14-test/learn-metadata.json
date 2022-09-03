@@ -155,7 +155,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```def fun(in=2, out=3):\n    return in * out\n\nprint(fun(3))```",
+            "question": "Каков вывод следующего кода?\n\n```def fun(in=2, out=3):\n    return in * out\n\nprint(fun(3))```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -173,7 +173,7 @@
             ]
         },
         {
-            "question": "Каков вывод следующего кода?\n```tup = (1, ) + (1, )\ntup = tup + tup\nprint(len(tup))```",
+            "question": "Каков вывод следующего кода?\n\n```tup = (1, ) + (1, )\ntup = tup + tup\nprint(len(tup))```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -191,7 +191,7 @@
             ]
         },
         {
-            "question": "Что выведет следующая программа, если пользователь сначала введет `kangaroo`, а затем - `0`?\n```try:\n    first_prompt = input(\"Введите первое значение: \")\n    a = len(first_prompt)\n    second_prompt = input(\"Введите второе значение: \")\n    b = len(second_prompt) * 2\n    print(a/b)\nexcept ZeroDivisionError:\n    print(\"Не делите на ноль!\")\nexcept ValueError:\n    print(\"Неверное значение.\")\nexcept:\n    print(\"Ошибка.Ошибка.Ошибка.\")\n\n```",
+            "question": "Что выведет следующая программа, если пользователь сначала введет `kangaroo`, а затем - `0`?\n\n```try:\n    first_prompt = input(\"Введите первое значение: \")\n    a = len(first_prompt)\n    second_prompt = input(\"Введите второе значение: \")\n    b = len(second_prompt) * 2\n    print(a/b)\nexcept ZeroDivisionError:\n    print(\"Не делите на ноль!\")\nexcept ValueError:\n    print(\"Неверное значение.\")\nexcept:\n    print(\"Ошибка.Ошибка.Ошибка.\")\n\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -213,7 +213,7 @@
             ]
         },
         {
-            "question": "Каково ожидаемое поведение следующей программы, если пользователь введет `0`?\n```value = input(\"Введите значение: \")\nprint(10/value)\n```",
+            "question": "Каково ожидаемое поведение следующей программы, если пользователь введет `0`?\n\n```value = input(\"Введите значение: \")\nprint(10/value)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
