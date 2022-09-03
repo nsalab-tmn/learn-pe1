@@ -231,7 +231,7 @@
             ]
         },
         {
-            "question": "Что выведет следующий код? ```x = 1\ny = 2\nz = x\nx = y\ny = z\nprint(x, y)\n```",
+            "question": "Что выведет следующий код?\n\n```\nx = 1\ny = 2\nz = x\nx = y\ny = z\nprint(x, y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -253,7 +253,7 @@
             ]
         },
         {
-            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = input()\ny = input()\nprint(x + y)\n```",
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n\n```\nx = input()\ny = input()\nprint(x + y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -275,7 +275,7 @@
             ]
         },
         {
-            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nx = x // y\ny = y // x\n\nprint(y)```",
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n\n```\nx = int(input())\ny = int(input())\n\nx = x // y\ny = y // x\n\nprint(y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -297,7 +297,7 @@
             ]
         },
         {
-            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nx = x / y\ny = y / x\n\nprint(y)\n```",
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n\n```\nx = int(input())\ny = int(input())\n\nx = x / y\ny = y / x\n\nprint(y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -319,7 +319,7 @@
             ]
         },
         {
-            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `11` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nx = x % y\nx = x % y\ny = y % x\n\nprint(y)\n```",
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `11` и `4` соответственно?\n\n```\nx = int(input())\ny = int(input())\n\nx = x % y\nx = x % y\ny = y % x\n\nprint(y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -341,7 +341,7 @@
             ]
         },
         {
-            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `3` и `6` соответственно?\n```x = input()\ny = int(input())\n\nprint(x * y)\n```",
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `3` и `6` соответственно?\n\n```\nx = input()\ny = int(input())\n\nprint(x * y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -363,7 +363,7 @@
             ]
         },
         {
-            "question": "Что выведет следующий код?\n```z = y = x = 1\nprint(x, y, z, sep='*')\n```",
+            "question": "Что выведет следующий код?\n\n```\nz = y = x = 1\nprint(x, y, z, sep='*')\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -385,7 +385,7 @@
             ]
         },
         {
-            "question": "Что выведет следующий код?\n```y = 2 + 3 * 5.\nprint(Y)```",
+            "question": "Что выведет следующий код?\n\n```\ny = 2 + 3 * 5.\nprint(Y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -407,7 +407,7 @@
             ]
         },
         {
-            "question": "Что выведет следующий код?\n```x = 1 / 2 + 3 // 3 + 4 ** 2\nprint(x)```",
+            "question": "Что выведет следующий код?\n\n```\nx = 1 / 2 + 3 // 3 + 4 ** 2\nprint(x)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -429,7 +429,7 @@
             ]
         },
         {
-            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n```x = int(input())\ny = int(input())\n\nprint(x + y)\n```",
+            "question": "Каков будет вывод следующего кода, если пользователь введет две строки, содержащие `2` и `4` соответственно?\n\n```\nx = int(input())\ny = int(input())\n\nprint(x + y)\n```",
             "answerType": "singleChoice",
             "answers": [
                 {
