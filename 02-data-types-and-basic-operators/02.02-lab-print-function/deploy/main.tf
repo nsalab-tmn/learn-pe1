@@ -66,19 +66,15 @@ resource "azurerm_container_group" "containergroup" {
   os_type             = "Linux"
   dns_name_label      = "${var.tp_name}-${var.instance_id}"
 
-  ports {
-      port     = 8443
-      protocol = "TCP"
-    }
-
   tags     = {
     Environment: "${var.tp_learn_env}"
     Owner: "${var.tp_learn_user}"
   }
 
-  volume {
-    name="share"
-    empty_dir={}
+  image_registry_credential {
+    server = "${var.LAB_DEPLOY_CONTAINER_SERVER}"
+    username = "${var.LAB_DEPLOY_CONTAINER_USERNAME}"
+    password = "${var.LAB_DEPLOY_CONTAINER_PASSWORD}"
   }
 
   container {
@@ -86,8 +82,8 @@ resource "azurerm_container_group" "containergroup" {
     image  = "${var.LAB_DEPLOY_IMAGE_BLOB}"
     cpu    = 1
     memory = 1
-
-    environment_variables {
+  
+    environment_variables = {
       STORAGE_CONTAINER="${var.STORAGE_CONTAINER}"
       LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
       STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
@@ -98,6 +94,7 @@ resource "azurerm_container_group" "containergroup" {
     volume {
       name                 = "share"
       mount_path           = "/share"
+      empty_dir = true
     }
   }
 
@@ -112,13 +109,14 @@ resource "azurerm_container_group" "containergroup" {
         protocol = "TCP"
       }
 
-    environment_variables {
+    environment_variables = {
       DEFAULT_WORKSPACE="/code"
     }
 
     volume {
       name                 = "share"
       mount_path           = "/code"
+      empty_dir = true
     }
   }
 }

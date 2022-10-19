@@ -1,16 +1,16 @@
 variable "instance_id" {
     type        = string
-    default     = "user01_1111"
+    default     = "user01-1111"
 }
 
 variable "tp_name" {
     type        = string
-    default     = "smpl_lab"
+    default     = "smpl-lab"
 }
 
 variable "tp_learn_env" {
     type        = string
-    default     = "dev"
+    default     = "tst"
 }
 
 variable "tp_learn_user" {
@@ -20,7 +20,7 @@ variable "tp_learn_user" {
 
 variable "LAB_DEPLOY_IMAGE_VSCODE" {
     type        = string
-    default     = "labdeployacrdev.azurecr.io/code-server:latest"   
+    default     = "labdeployacrtst.azurecr.io/code-server:latest"   
 }
 
 variable "STORAGE_CONTAINER" {
@@ -46,4 +46,19 @@ variable "STORAGE_ACCOUNT_NAME" {
 variable "LAB_DEPLOY_PATH" {
     type        = string
     default     = "deploy"   
+}
+
+variable "LAB_DEPLOY_CONTAINER_SERVER" {
+    type        = string
+    default     = "labdeployacrtst.azurecr.io"     
+}
+
+variable "LAB_DEPLOY_CONTAINER_PASSWORD" {
+    type        = string
+    default     = "R42fQhO/vsxwGSJ=wz31LLQwkc3t3oHr"  
+}
+
+variable "LAB_DEPLOY_CONTAINER_USERNAME" {
+    type        = string
+    default     = "labdeployacrtst"  
 }
