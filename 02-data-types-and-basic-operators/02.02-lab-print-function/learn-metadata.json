@@ -2,6 +2,7 @@
     "title": "Лабораторная работа: Функция print(). Часть 1",
     "materialType": "lab",
     "description": "",
+    "deploy": { "$ref": "./deploy" },
     "text": {
         "$ref": "./README.md"
     },
