@@ -1,5 +1,6 @@
 {
     "title": "Лабораторная работа: Функция print(). Часть 1",
+    "shortName": "pe1-lab01",
     "materialType": "lab",
     "description": "",
     "deploy": { "$ref": "./deploy" },
