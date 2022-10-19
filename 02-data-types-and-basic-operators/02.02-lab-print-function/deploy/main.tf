@@ -65,6 +65,7 @@ resource "azurerm_container_group" "containergroup" {
   ip_address_type     = "Public"
   os_type             = "Linux"
   dns_name_label      = "${var.tp_name}-${var.instance_id}"
+  restart_policy      = "Never"
 
   tags     = {
     Environment: "${var.tp_learn_env}"
@@ -76,28 +77,7 @@ resource "azurerm_container_group" "containergroup" {
     username = "${var.LAB_DEPLOY_CONTAINER_USERNAME}"
     password = "${var.LAB_DEPLOY_CONTAINER_PASSWORD}"
   }
-
-  container {
-    name   = "blob-${var.instance_id}"
-    image  = "${var.LAB_DEPLOY_IMAGE_BLOB}"
-    cpu    = 1
-    memory = 1
   
-    environment_variables = {
-      STORAGE_CONTAINER="${var.STORAGE_CONTAINER}"
-      LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
-      STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
-      LAB_TP_NAME="${var.tp_name}"
-      LAB_DEPLOY_PATH="${var.LAB_DEPLOY_PATH}"
-    }
-
-    volume {
-      name                 = "share"
-      mount_path           = "/share"
-      empty_dir = true
-    }
-  }
-
   container {
     name   = "code-${var.instance_id}"
     image  = "${var.LAB_DEPLOY_IMAGE_VSCODE}"
@@ -116,6 +96,27 @@ resource "azurerm_container_group" "containergroup" {
     volume {
       name                 = "share"
       mount_path           = "/code"
+      empty_dir = true
+    }
+  }
+
+  container {
+    name   = "blob-${var.instance_id}"
+    image  = "${var.LAB_DEPLOY_IMAGE_BLOB}"
+    cpu    = 1
+    memory = 1
+  
+    environment_variables = {
+      STORAGE_CONTAINER="${var.STORAGE_CONTAINER}"
+      LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
+      STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
+      LAB_TP_NAME="${var.LAB_TP_NAME}"
+      LAB_DEPLOY_PATH="${var.LAB_DEPLOY_PATH}"
+    }
+
+    volume {
+      name                 = "share"
+      mount_path           = "/share"
       empty_dir = true
     }
   }

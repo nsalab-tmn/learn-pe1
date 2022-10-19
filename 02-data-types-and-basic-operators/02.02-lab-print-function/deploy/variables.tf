@@ -55,10 +55,15 @@ variable "LAB_DEPLOY_CONTAINER_SERVER" {
 
 variable "LAB_DEPLOY_CONTAINER_PASSWORD" {
     type        = string
-    default     = "R42fQhO/vsxwGSJ=wz31LLQwkc3t3oHr"  
+    default     = "jj"  
 }
 
 variable "LAB_DEPLOY_CONTAINER_USERNAME" {
     type        = string
     default     = "labdeployacrtst"  
+}
+
+variable "LAB_TP_NAME" {
+    type        = string
+    default     = "634fe2f72096b54853f10bc1"  
 }
