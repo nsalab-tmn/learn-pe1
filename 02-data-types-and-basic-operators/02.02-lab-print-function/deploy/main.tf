@@ -14,6 +14,14 @@ provider "azurerm" {
   features {}
 }
 
+resource "azurerm_dns_a_record" "a_record" {
+  name                = "${random_string.learn.result}"
+  zone_name           = "az.skillscloud.company"
+  resource_group_name = "nsalab-prod"
+  ttl                 = 300
+  records             = [azurerm_container_group.containergroup.ip_address]
+}
+
 resource "azurerm_resource_group" "learn" {
   name     = "rg-${var.tp_name}-${var.instance_id}"
   location = "eastus"
@@ -30,7 +38,6 @@ resource "random_string" "learn" {
   min_numeric      = 2
   min_upper        = 2
   min_special      = 1
-  override_special = "+-=%#^@"
 }
 
 resource "azuread_user" "learn" {
@@ -85,12 +92,15 @@ resource "azurerm_container_group" "containergroup" {
     memory = 1
 
     ports {
-        port     = 8443
+        port     = 80
         protocol = "TCP"
       }
 
     environment_variables = {
       DEFAULT_WORKSPACE="/code"
+      PORT="80"
+      PUID="0"
+      PGID="0"
     }
 
     volume {
