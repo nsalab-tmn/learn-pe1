@@ -92,13 +92,13 @@ resource "azurerm_container_group" "containergroup" {
     memory = 1
 
     ports {
-        port     = 80
+        port     = 443
         protocol = "TCP"
       }
 
     environment_variables = {
       DEFAULT_WORKSPACE="/code"
-      PORT="80"
+      PORT="443"
       PUID="0"
       PGID="0"
     }
