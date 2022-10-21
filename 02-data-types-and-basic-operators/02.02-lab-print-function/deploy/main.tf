@@ -119,7 +119,7 @@ resource "azurerm_container_group" "containergroup" {
       LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
       STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
       LAB_TP_NAME="${var.LAB_TP_NAME}"
-      LAB_DEPLOY_PATH="/code"
+      LAB_DEPLOY_PATH="/deploy/example"
     }
 
     volume {
