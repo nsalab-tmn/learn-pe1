@@ -1,0 +1,12 @@
+- name: Функция print()
+  code: s1
+  type: check
+  result:
+  device: local
+  action_chain:
+    - action: verify_output
+      action_vars:
+        command:  python3.8 -m grader tester.py solution.py 
+        tags_are_present: True
+        assert_tags:
+          - "true"

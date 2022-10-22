@@ -4,6 +4,8 @@
     "materialType": "lab",
     "description": "",
     "deploy": { "$ref": "./deploy" },
+    "assessment": { "$ref": "./assessment.json" },
+    "testcase": { "$ref": "./assessment/testcases.d" },
     "text": {
         "$ref": "./README.md"
     },
