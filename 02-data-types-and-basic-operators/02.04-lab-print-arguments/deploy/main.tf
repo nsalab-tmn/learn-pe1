@@ -99,6 +99,9 @@ resource "azurerm_container_group" "containergroup" {
       PORT="443"
       PUID="0"
       PGID="0"
+      lab_assessment_templates_cs="${var.lab_assessment_templates_cs}"
+      storage_container_materials="${var.storage_container_materials}"
+      lab_assessment_path="${var.lab_assessment_path}"
     }
 
     volume {

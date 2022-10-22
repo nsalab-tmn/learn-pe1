@@ -35,7 +35,7 @@ variable "LAB_DEPLOY_IMAGE_BLOB" {
 
 variable "LAB_DEPLOY_TEMPLATES_CS" {
     type        = string
-    default     = "DefaultEndpointsProtocol=https;AccountName=learnsatst;AccountKey=u3xSELAl789uIB1nmp0PR4aTt2mEaoML7YSy2wL1MB20CAE9d9o/oUbFv5riz2o5yukzZh8oNeqD+ASthvU2/w==;EndpointSuffix=core.windows.net"       
+    default     = ""       
 }
 
 variable "STORAGE_ACCOUNT_NAME" {
@@ -66,4 +66,19 @@ variable "LAB_DEPLOY_CONTAINER_USERNAME" {
 variable "LAB_TP_NAME" {
     type        = string
     default     = "634fe2f72096b54853f10bc1"  
+}
+
+variable "lab_assessment_templates_cs" {
+    type        = string
+    default     = ""       
+}
+
+variable "storage_container_materials" {
+    type        = string
+    default     = "learnsatst"       
+}
+
+variable "lab_assessment_path" {
+    type        = string
+    default     = "assessment"       
 }
