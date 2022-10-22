@@ -64,7 +64,7 @@ resource "azurerm_resource_group_policy_assignment" "allowed-sku-assignment" {
 }
 
 resource "azurerm_container_group" "containergroup" {
-  name     = "rg-${var.tp_name}-${var.instance_id}"
+  name     = "${var.tp_name}-${var.instance_id}"
   location            = "eastus"
   resource_group_name = azurerm_resource_group.learn.name
   ip_address_type     = "Public"
@@ -119,7 +119,7 @@ resource "azurerm_container_group" "containergroup" {
       LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
       STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
       LAB_TP_NAME="${var.LAB_TP_NAME}"
-      LAB_DEPLOY_PATH="deploy/example"
+      LAB_DEPLOY_PATH="deploy/solution"
       DST_FOLDER="/share"
     }
 
