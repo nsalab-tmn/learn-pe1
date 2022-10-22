@@ -1,7 +1,9 @@
 {
     "title": "Лабораторная работа: Функция print(). Часть 2",
+    "shortName": "pe1-lab02",
     "materialType": "lab",
     "description": "",
+    "deploy": { "$ref": "./deploy" },
     "text": {
         "$ref": "./README.md"
     },

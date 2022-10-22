@@ -86,7 +86,7 @@ resource "azurerm_container_group" "containergroup" {
   container {
     name   = "code-${var.instance_id}"
     image  = "${var.LAB_DEPLOY_IMAGE_VSCODE}"
-    cpu    = 0.5
+    cpu    = 1
     memory = 1
 
     ports {
@@ -111,7 +111,7 @@ resource "azurerm_container_group" "containergroup" {
   container {
     name   = "blob-${var.instance_id}"
     image  = "${var.LAB_DEPLOY_IMAGE_BLOB}"
-    cpu    = 0.5
+    cpu    = 1
     memory = 1
   
     environment_variables = {
