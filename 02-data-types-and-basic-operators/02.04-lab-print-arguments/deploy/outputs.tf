@@ -3,3 +3,21 @@ output "Workspace_for_lab" {
   description = "Workspace for lab"
   depends_on  = []
 }
+
+output "resource_group" {
+  value       =  azurerm_resource_group.learn.name
+  description = "Resource group"
+  depends_on  = []
+}
+
+output "azurerm_container_group" {
+  value       =  azurerm_container_group.containergroup.name
+  description = "azurerm_container_group"
+  depends_on  = []
+}
+
+output "instance_id" {
+  value       =  ${var.instance_id}
+  description = "instance_id"
+  depends_on  = []
+}
