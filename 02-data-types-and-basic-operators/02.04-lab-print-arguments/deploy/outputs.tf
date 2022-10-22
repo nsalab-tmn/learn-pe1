@@ -4,13 +4,13 @@ output "Workspace_for_lab" {
   depends_on  = []
 }
 
-output "resource_group" {
+output "learn_rg" {
   value       =  azurerm_resource_group.learn.name
   description = "Resource group"
   depends_on  = []
 }
 
-output "azurerm_container_group" {
+output "container_group" {
   value       =  azurerm_container_group.containergroup.name
   description = "azurerm_container_group"
   depends_on  = []
