@@ -8,10 +8,10 @@
       action_vars:
         commands:
           - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
-          - az container exec --container-name {container_group} --name code-{instance_id} --resource-group {learn_rg} --exec-command "/etc/sln/download-assessment.sh"
+          - az container exec --container-name code-{instance_id} --name {container_group} --resource-group {learn_rg} --exec-command "/etc/sln/download-assessment.sh"
     - action: verify_output
       action_vars:
-        command: - az container exec --container-name {container_group} --name code-{instance_id} --resource-group {learn_rg} --exec-command "python -m grader /etc/sln/tester.py /code/solution.py"
+        command: az container exec --container-name {container_group} --name code-{instance_id} --resource-group {learn_rg} --exec-command "python -m grader /etc/sln/tester.py /code/solution.py"
         tags_are_present: True
         assert_tags:
           - "true"

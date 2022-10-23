@@ -102,6 +102,8 @@ resource "azurerm_container_group" "containergroup" {
       lab_assessment_templates_cs="${var.lab_assessment_templates_cs}"
       storage_container_materials="${var.storage_container_materials}"
       lab_assessment_path="${var.lab_assessment_path}"
+      lab_tp_name="${var.LAB_TP_NAME}"
+      DST_FOLDER="/etc/sln"
     }
 
     volume {
