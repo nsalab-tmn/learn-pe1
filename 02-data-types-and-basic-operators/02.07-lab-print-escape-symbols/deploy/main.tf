@@ -85,7 +85,7 @@ resource "azurerm_container_group" "containergroup" {
   
   container {
     name   = "code-${var.instance_id}"
-    image  = "labdeployacrtst.azurecr.io/code-server-test:latest"
+    image  = "${var.LAB_DEPLOY_IMAGE_VSCODE}"
     cpu    = 0.5
     memory = 1
 
@@ -93,9 +93,6 @@ resource "azurerm_container_group" "containergroup" {
         port     = 443
         protocol = "TCP"
       }
-
-    commands = ["/bin/bash", "-c", "/opt/download-files-for-python-test.sh"]
-
 
     environment_variables = {
       DEFAULT_WORKSPACE="/code"
@@ -106,16 +103,34 @@ resource "azurerm_container_group" "containergroup" {
       storage_container_materials="${var.storage_container_materials}"
       lab_assessment_path="${var.lab_assessment_path}"
       lab_tp_name="${var.LAB_TP_NAME}"
+      DST_FOLDER="/etc/sln"
+    }
+
+    volume {
+      name                 = "share"
+      mount_path           = "/code"
+      empty_dir = true
+    }
+  }
+
+  container {
+    name   = "blob-${var.instance_id}"
+    image  = "${var.LAB_DEPLOY_IMAGE_BLOB}"
+    cpu    = 0.5
+    memory = 1
+  
+    environment_variables = {
       STORAGE_CONTAINER="${var.STORAGE_CONTAINER}"
       LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
       STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
       LAB_TP_NAME="${var.LAB_TP_NAME}"
       LAB_DEPLOY_PATH="deploy/solution"
-      DST_FOLDER="/code"    }
+      DST_FOLDER="/share"
+    }
 
     volume {
       name                 = "share"
-      mount_path           = "/code"
+      mount_path           = "/share"
       empty_dir = true
     }
   }
