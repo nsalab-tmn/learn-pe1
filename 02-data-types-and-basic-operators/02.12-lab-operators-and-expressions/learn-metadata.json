@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Операторы и выражения",
     "materialType": "lab",
+    "shortName": "pe1-lab07",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

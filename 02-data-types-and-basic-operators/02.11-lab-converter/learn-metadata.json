@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Переменные - простой конвертер",
     "materialType": "lab",
+    "shortName": "pe1-lab06",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"
