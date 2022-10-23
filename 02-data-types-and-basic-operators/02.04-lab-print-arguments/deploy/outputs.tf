@@ -17,7 +17,7 @@ output "container_group" {
 }
 
 output "instance_id" {
-  value       =  ${var.instance_id}
+  value       =  "${var.instance_id}"
   description = "instance_id"
   depends_on  = []
 }
