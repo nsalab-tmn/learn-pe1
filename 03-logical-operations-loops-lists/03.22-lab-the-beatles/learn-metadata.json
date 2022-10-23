@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: The Beatles",
     "materialType": "lab",
+    "shortName": "pe1-lab24",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

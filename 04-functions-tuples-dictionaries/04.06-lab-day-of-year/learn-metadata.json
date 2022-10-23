@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: День года",
     "materialType": "lab",
+    "shortName": "pe1-lab28",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

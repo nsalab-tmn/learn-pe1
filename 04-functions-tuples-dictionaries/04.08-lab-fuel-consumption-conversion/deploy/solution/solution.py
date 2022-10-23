@@ -1,0 +1,23 @@
+import os
+
+def liters_100km_to_miles_gallon(liters):
+#
+# Напишите ваш код здесь.
+#
+
+def miles_gallon_to_liters_100km(miles):
+#
+# Напишите ваш код здесь.
+#
+
+def main():
+
+    print(liters_100km_to_miles_gallon(3.9))
+    print(liters_100km_to_miles_gallon(7.5))
+    print(liters_100km_to_miles_gallon(10.))
+    print(miles_gallon_to_liters_100km(60.3))
+    print(miles_gallon_to_liters_100km(31.4))
+    print(miles_gallon_to_liters_100km(23.5))
+
+if __name__ == "__main__":
+    main()

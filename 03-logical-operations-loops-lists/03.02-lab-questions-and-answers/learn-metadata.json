@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Вопросы и ответы",
     "materialType": "lab",
+    "shortName": "pe1-lab12",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

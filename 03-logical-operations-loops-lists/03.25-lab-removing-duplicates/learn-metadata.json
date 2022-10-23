@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Удаление дубликатов",
     "materialType": "lab",
+    "shortName": "pe1-lab25",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

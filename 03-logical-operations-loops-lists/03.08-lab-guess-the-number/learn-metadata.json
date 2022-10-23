@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Угадать загаданное число",
     "materialType": "lab",
+    "shortName": "pe1-lab16",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"
