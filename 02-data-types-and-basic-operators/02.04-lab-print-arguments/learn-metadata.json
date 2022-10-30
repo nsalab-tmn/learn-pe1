@@ -3,7 +3,7 @@
     "shortName": "pe1-lab02",
     "materialType": "lab",
     "description": "",
-    "deploy": { "$ref": "./deploy" },
+    "deploy": { "$ref": "./deploy-vkcs" },
     "assessment": { "$ref": "./assessment.json" },
     "testcase": { "$ref": "./assessment/testcases.d" },
     "text": {
