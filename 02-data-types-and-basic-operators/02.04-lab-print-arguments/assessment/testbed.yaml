@@ -15,3 +15,16 @@ devices:
           default:
             username: 'assessment'
             password: 'assessment'  
+  assessment:
+    os: linux
+    type: linux
+    connections:
+      a:
+        protocol: ssh
+        ip: {ipv4}
+        port: 22
+        ssh_options: -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o TCPKeepAlive=yes -o ServerAliveInterval=10
+        credentials:
+          default:
+            username: 'assessment'
+            password: 'assessment'  

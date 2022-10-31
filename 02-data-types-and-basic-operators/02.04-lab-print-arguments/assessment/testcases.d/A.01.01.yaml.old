@@ -1,0 +1,16 @@
+- name: Функция print()
+  code: s1
+  type: check
+  result:
+  device: local
+  action_chain:
+    - action: run_shell_commands
+      action_vars:
+        commands:
+          - az login --service-principal --username {client_id} --password {client_secret} --tenant {tenant_id}
+    - action: verify_output
+      action_vars:
+        command: az container exec --container-name code-{instance_id} --name {container_group} --resource-group {learn_rg} --exec-command "python3.8 -m grader /etc/sln/tester.py /code/solution.py"
+        tags_are_present: false
+        assert_tags:
+          - "AssertionError"
