@@ -33,7 +33,7 @@ resource "vkcs_compute_instance" "compute" {
         LAB_DEPLOY_TEMPLATES_CS="${var.LAB_DEPLOY_TEMPLATES_CS}"
         STORAGE_ACCOUNT_NAME="${var.STORAGE_ACCOUNT_NAME}"
         LAB_TP_NAME="${var.LAB_TP_NAME}"
-        LAB_DEPLOY_PATH="depoy/solution"
+        LAB_DEPLOY_PATH="deploy-vkcs/solution"
         DST_FOLDER="/code"
         lab_assessment_templates_cs="${var.lab_assessment_templates_cs}"
         storage_container_materials="${var.storage_container_materials}"
