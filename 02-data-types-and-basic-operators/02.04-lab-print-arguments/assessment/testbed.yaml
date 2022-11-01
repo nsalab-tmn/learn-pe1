@@ -21,7 +21,7 @@ devices:
     connections:
       a:
         protocol: ssh
-        ip: {ipv4}
+        ip: '%ENV{ipv4}'
         port: 22
         ssh_options: -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o TCPKeepAlive=yes -o ServerAliveInterval=10
         credentials:
