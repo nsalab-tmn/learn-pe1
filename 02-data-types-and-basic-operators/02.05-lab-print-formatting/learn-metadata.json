@@ -2,7 +2,7 @@
     "title": "Лабораторная работа: Форматирование вывода",
     "materialType": "lab",
     "shortName": "pe1-lab03",
-    "deploy": { "$ref": "./deploy" },
+    "deploy": { "$ref": "./deploy-vkcs" },    
     "description": "",
     "text": {
         "$ref": "./README.md"
