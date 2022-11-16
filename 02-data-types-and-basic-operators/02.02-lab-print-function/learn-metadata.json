@@ -3,7 +3,7 @@
     "shortName": "pe1-lab01",
     "materialType": "lab",
     "description": "",
-    "deploy": { "$ref": "./deploy" },
+    "deploy": { "$ref": "./deploy-vkcs" },
     "text": {
         "$ref": "./README.md"
     },
