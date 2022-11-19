@@ -29,19 +29,19 @@
             ]
         },
         {
-            "question": "Полный набор известных команд называется:",
+            "question": "Полный набор известных команд для компьютера называется:",
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "список команд",
+                    "answer": "списком инструкций",
                     "correct": true
                 },
                 {
-                    "answer": "машинный список",
+                    "answer": "машинным списком",
                     "correct": false
                 },
                 {
-                    "answer": "низкоуровневый список",
+                    "answer": "низкоуровневым списком",
                     "correct": false
                 }
             ]
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "question": "Какая версия Python рассматривается в этом курсе?",
+            "question": "Какая версия Python является наиболее актуальной?",
             "answerType": "singleChoice",
             "answers": [
                 {
@@ -95,7 +95,7 @@
                     "correct": false
                 },
                 {
-                    "answer": "Python 1",
+                    "answer": "Python 4",
                     "correct": false
                 }
             ]
@@ -105,7 +105,7 @@
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "Реализация языка программирования Python по умолчанию",
+                    "answer": "Каноническая реализация языка программирования Python",
                     "correct": true
                 },
                 {
@@ -141,7 +141,7 @@
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "Дебаггер",
+                    "answer": "Отладчик",
                     "correct": true
                 },
                 {
