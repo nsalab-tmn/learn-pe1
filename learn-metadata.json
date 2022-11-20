@@ -1,13 +1,13 @@
 {
-    "title": "Основы Python. Часть 1",
+    "title": "Основы программирования на Python",
     "materialType": "learning-path",
     "tags": {
         "$ref": "./material-tags.json"
     },
+    "description": {
+        "$ref": "./README.md"
+    },
     "materials": [
-        {
-            "$ref": "./00-introduction/learn-metadata.json"
-        },
         {
             "$ref": "./01-introduction-to-python-and-computer-programming/learn-metadata.json"
         },
