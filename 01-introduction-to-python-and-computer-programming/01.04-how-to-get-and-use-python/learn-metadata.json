@@ -3,7 +3,7 @@
     "materialType": "lecture",
     "description": "Как установить Python для разных типов операционных систем и запустить свою первую программу",
     "difficulty": 1,
-    "duration": "PT0H23M",
+    "duration": "PT0H11M",
     "tags": {
         "$ref": "../../material-tags.json"
     },

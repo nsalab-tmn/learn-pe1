@@ -3,7 +3,7 @@
     "materialType": "lecture",
     "description": "Как и когда появился Python? Какие цели ставили перед собой разработчики? Что делает Python особенным и какие у него есть недостатки?",
     "difficulty": 1,
-    "duration": "PT0H16M",
+    "duration": "PT0H11M",
     "tags": {
         "$ref": "../../material-tags.json"
     },

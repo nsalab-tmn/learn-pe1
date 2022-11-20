@@ -3,7 +3,7 @@
     "materialType": "lecture",
     "description": "Какие существуют версии и разновидности языка Python и чем они отличаются друг от друга?",
     "difficulty": 1,
-    "duration": "PT0H16M",
+    "duration": "PT0H7M",
     "tags": {
         "$ref": "../../material-tags.json"
     },
