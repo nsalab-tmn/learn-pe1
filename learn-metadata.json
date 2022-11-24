@@ -23,5 +23,8 @@
         {
             "$ref": "./05-completion/learn-metadata.json"
         }
-    ]
+    ],
+    "assets": {
+        "$ref": "./assets"
+    }
 }
