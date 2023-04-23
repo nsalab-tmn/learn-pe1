@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab04",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "**Цель лабораторной работы**: ознакомиться с функцией `print()` и ее возможностями форматирования, используя символы новой строки и escape-символы",
     "text": {
         "$ref": "./README.md"
     },

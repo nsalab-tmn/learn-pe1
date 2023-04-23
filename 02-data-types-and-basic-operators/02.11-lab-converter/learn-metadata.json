@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab06",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "**Цель лабораторной работы**: использовать переменные для выполнения базовых вычислений и преобразований",
     "text": {
         "$ref": "./README.md"
     },

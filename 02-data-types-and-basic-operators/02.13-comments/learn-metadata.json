@@ -1,7 +1,7 @@
 {
     "title": "Комментарий о комментариях",
     "materialType": "lecture",
-    "description": "",
+    "description": "Зачем использовать комментарии в коде? Как комментировать в Python? Какие имена следует давать переменным?",
     "difficulty": 1,
     "duration": "PT0H10M",
     "tags": {

@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab10",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "**Цель лабораторной работы**: применить на практике знания о приоритетах и ассоциативности операторов Python, а также о правильном использовании скобок",
     "text": {
         "$ref": "./README.md"
     },

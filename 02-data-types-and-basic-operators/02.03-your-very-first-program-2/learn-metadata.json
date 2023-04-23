@@ -1,7 +1,7 @@
 {
     "title": "Ваша самая первая программа. Часть 2",
     "materialType": "lecture",
-    "description": "",
+    "description": "В чём особенности функции `print()`? Зачем нужны escape-символы? В чём разница между позиционными и именованными аргументами?",
     "difficulty": 1,
     "duration": "PT0H31M",
     "tags": {

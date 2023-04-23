@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab05",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "**Цель лабораторной работы**: ознакомиться с принципами работы с переменными в Python",
     "text": {
         "$ref": "./README.md"
     },
