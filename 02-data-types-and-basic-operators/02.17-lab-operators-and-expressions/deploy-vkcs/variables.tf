@@ -26,7 +26,7 @@ variable "STORAGE_CONTAINER" {
 
 variable "LAB_DEPLOY_TEMPLATES_CS" {
     type        = string
-    default     = "DefaultEndpointsProtocol=https;AccountName=learnsatst;AccountKey=u3xSELAl789uIB1nmp0PR4aTt2mEaoML7YSy2wL1MB20CAE9d9o/oUbFv5riz2o5yukzZh8oNeqD+ASthvU2/w==;EndpointSuffix=core.windows.net"       
+    default     = "DefaultEndpointsProtocol=https;AccountName=learnsatst;AccountKey=<your account key here>;EndpointSuffix=core.windows.net"       
 }
 
 variable "STORAGE_ACCOUNT_NAME" {
@@ -46,7 +46,7 @@ variable "LAB_TP_NAME" {
 
 variable "lab_assessment_templates_cs" {
     type        = string
-    default     = "DefaultEndpointsProtocol=https;AccountName=learnsatst;AccountKey=u3xSELAl789uIB1nmp0PR4aTt2mEaoML7YSy2wL1MB20CAE9d9o/oUbFv5riz2o5yukzZh8oNeqD+ASthvU2/w==;EndpointSuffix=core.windows.net"       
+    default     = "DefaultEndpointsProtocol=https;AccountName=learnsatst;AccountKey=<your account key here>;EndpointSuffix=core.windows.net"       
 }
 
 variable "storage_container_materials" {
