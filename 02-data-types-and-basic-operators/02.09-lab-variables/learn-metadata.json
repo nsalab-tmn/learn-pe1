@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Переменные",
     "materialType": "lab",
+    "shortName": "pe1-lab05",
+    "deploy": { "$ref": "./deploy-vkcs" },    
     "description": "",
     "text": {
         "$ref": "./README.md"

@@ -1,0 +1,12 @@
+- name: Функция print()
+  code: s1
+  type: check
+  result:
+  device: assessment
+  action_chain:
+    - action: verify_output
+      action_vars:
+        command: python3.8 -m grader /etc/sln/tester.py /code/solution.py
+        tags_are_present: false
+        assert_tags:
+          - "AssertionError"

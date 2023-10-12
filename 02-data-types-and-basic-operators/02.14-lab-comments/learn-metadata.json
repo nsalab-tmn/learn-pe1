@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Комментарии",
     "materialType": "lab",
+    "shortName": "pe1-lab08",
+    "deploy": { "$ref": "./deploy-vkcs" },    
     "description": "",
     "text": {
         "$ref": "./README.md"

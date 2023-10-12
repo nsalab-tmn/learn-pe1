@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Крестики-нолики",
     "materialType": "lab",
+    "shortName": "pe1-lab31",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

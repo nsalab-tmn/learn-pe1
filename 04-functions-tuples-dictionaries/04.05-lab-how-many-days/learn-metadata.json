@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Сколько дней",
     "materialType": "lab",
+    "shortName": "pe1-lab27",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

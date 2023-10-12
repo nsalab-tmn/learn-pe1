@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Счет Миссисипи",
     "materialType": "lab",
+    "shortName": "pe1-lab17",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

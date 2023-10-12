@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Простые операции ввода/вывода",
     "materialType": "lab",
+    "shortName": "pe1-lab09",
+    "deploy": { "$ref": "./deploy-vkcs" },    
     "description": "",
     "text": {
         "$ref": "./README.md"

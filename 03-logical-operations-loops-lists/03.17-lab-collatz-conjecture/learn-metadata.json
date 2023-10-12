@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Гипотеза Коллатца",
     "materialType": "lab",
+    "shortName": "pe1-lab22",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

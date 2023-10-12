@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Красивый пожиратель гласных",
     "materialType": "lab",
+    "shortName": "pe1-lab20",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

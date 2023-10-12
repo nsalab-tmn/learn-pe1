@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Основы цикла while",
     "materialType": "lab",
+    "shortName": "pe1-lab21",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

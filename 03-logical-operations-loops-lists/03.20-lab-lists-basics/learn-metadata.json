@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Основы списков",
     "materialType": "lab",
+    "shortName": "pe1-lab23",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

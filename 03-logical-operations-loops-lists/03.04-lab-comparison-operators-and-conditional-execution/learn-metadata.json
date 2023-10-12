@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Операторы сравнения и условное выполнение",
     "materialType": "lab",
+    "shortName": "pe1-lab13",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

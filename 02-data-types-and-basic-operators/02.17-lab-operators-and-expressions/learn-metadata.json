@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Операторы и выражения. Часть 1",
     "materialType": "lab",
+    "shortName": "pe1-lab10",
+    "deploy": { "$ref": "./deploy-vkcs" },    
     "description": "",
     "text": {
         "$ref": "./README.md"

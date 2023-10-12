@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Основы выражения if-elif-else",
     "materialType": "lab",
+    "shortName": "pe1-lab15",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"

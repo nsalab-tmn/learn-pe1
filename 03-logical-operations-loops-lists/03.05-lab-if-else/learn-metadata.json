@@ -1,6 +1,8 @@
 {
     "title": "Лабораторная работа: Основы выражения if-else",
     "materialType": "lab",
+    "shortName": "pe1-lab14",
+    "deploy": { "$ref": "./deploy" },
     "description": "",
     "text": {
         "$ref": "./README.md"
