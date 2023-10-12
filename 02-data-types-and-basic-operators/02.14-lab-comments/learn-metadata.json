@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab08",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "**Цель лабораторной работы**: ознакомиться с концепцией комментариев в Python",
     "text": {
         "$ref": "./README.md"
     },

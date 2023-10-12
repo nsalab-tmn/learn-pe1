@@ -2,7 +2,7 @@
     "title": "Лабораторная работа: Функция print(). Часть 1",
     "shortName": "pe1-lab01",
     "materialType": "lab",
-    "description": "",
+    "description": "**Цель лабораторной работы**: ознакомиться с функцией `print()` и ее возможностями форматирования",
     "deploy": { "$ref": "./deploy-vkcs" },
     "text": {
         "$ref": "./README.md"

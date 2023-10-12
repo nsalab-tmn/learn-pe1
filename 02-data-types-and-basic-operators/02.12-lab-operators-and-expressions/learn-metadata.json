@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab07",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "**Цель лабораторной работы**: использовать операторы, переменные и значения с плавающей точкой для выполнения арифметических операций",
     "text": {
         "$ref": "./README.md"
     },

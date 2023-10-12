@@ -1,7 +1,7 @@
 {
     "title": "Литералы Python",
     "materialType": "lecture",
-    "description": "",
+    "description": "Что такое литеральные константы? Какие числа используют компьютеры? Какие числа используются в Python? Как кодировать числа и строки в Python? Что такое булевы значения?",
     "difficulty": 1,
     "duration": "PT0H37M",
     "tags": {

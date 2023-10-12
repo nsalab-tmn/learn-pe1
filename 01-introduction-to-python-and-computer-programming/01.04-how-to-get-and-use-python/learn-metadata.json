@@ -1,9 +1,9 @@
 {
-    "title": "Как получить Python и как его использовать",
+    "title": "Установка и начало использования Python",
     "materialType": "lecture",
-    "description": "",
+    "description": "Как установить Python для разных типов операционных систем и запустить свою первую программу",
     "difficulty": 1,
-    "duration": "PT0H23M",
+    "duration": "PT0H11M",
     "tags": {
         "$ref": "../../material-tags.json"
     },

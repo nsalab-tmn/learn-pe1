@@ -3,7 +3,7 @@
     "materialType": "lab",
     "shortName": "pe1-lab11",
     "deploy": { "$ref": "./deploy-vkcs" },    
-    "description": "",
+    "description": "***Цель лабораторной работы**: отработать навыки использования чисел, операторов и арифметических операций в Python, и использовать возможности форматирования функции `print()`",
     "text": {
         "$ref": "./README.md"
     },
